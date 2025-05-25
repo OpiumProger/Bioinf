@@ -26,7 +26,7 @@ The GCOptimizer class implements an intelligent genetic sequence optimization sy
     •	Fallback to uniform distribution if no frequency data is available
     •	Point mutations that preserve the amino acid sequence
 
-#Algorithm Workflow
+# Algorithm Workflow
   1. Initialization
     •	Loads codon tables and (optionally) codon usage frequencies
     •	Configures optimization parameters (target_gc, n_iter, pop_size, etc.)
@@ -46,11 +46,11 @@ The GCOptimizer class implements an intelligent genetic sequence optimization sy
     o	Final GC content
     o	Codon Adaptation Index (CAI)
     o	Terminal GC compliance
-
-⭐ Flexibility – Works with or without organism-specific preferences
-⭐ Balanced Optimization – Considers both global GC and terminal stability
-⭐ Automation – Minimizes manual tuning, maximizes adaptability
-⭐ Reproducibility – Deterministic results for identical inputs
+   
+   ⭐ Flexibility – Works with or without organism-specific preferences
+   ⭐ Balanced Optimization – Considers both global GC and terminal stability
+   ⭐ Automation – Minimizes manual tuning, maximizes adaptability
+   ⭐ Reproducibility – Deterministic results for identical inputs
 
 
 
